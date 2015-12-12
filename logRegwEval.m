@@ -56,7 +56,7 @@ for tR = 1 : length(topRange)
     for subjInd = 1 : length(subjw)
         % Get normalized T1 and FLAIR images file name
         normT1 = sprintf('%03d_reg_Pre_brain.nii',subjw(subjInd));
-        normFlair = sprintf('%03d_norm_strip_Flair.nii',subjwo(subjInd));
+        normFlair = sprintf('%03d_norm_strip_Flair.nii',subjw(subjInd));
         
         % Read NIfTI images
         [T1img, ~] = myReadNifti(normT1);
