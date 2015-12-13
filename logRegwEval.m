@@ -14,7 +14,7 @@ subjwo = [1:4,6,7, 9:11, 13,14, 16:20,22, 39,  73];
 segList = [5; 12; 23; 32; 40; 47; 55; 64; 66; 68; 72];
 subjw   = segList;
 % Load all images and segmentation. For each image, choose only the voxels
-% in the top 1% of FLAIR intensity. Then store in cells
+% in the top x% of FLAIR intensity. Then store in cells
 addpath(genpath('F:\data\norm_MRI_MS\registerd_stripped'))
 addpath(genpath('F:\enh_pred_data'))
 % subjw = [1:7, 9:23, 32, 39, 40, 47, 50, 55, 64, 66, 68, 72];
