@@ -1,5 +1,6 @@
 library(oro.nifti)
 library(WhiteStripe)
+# This script loads and normalized pre-registered pre-Contrast T1 and T2 FLAIR images using White Stripe Normalization.
 
 # Set working directory
 setwd("F:/data/MS-nifti")
