@@ -1,4 +1,5 @@
 # MS-MRI-Proj
+# (list of scripts and functions at the bottom)
 
 #Title: Validation and Optimization of Blood-Brain Barrier Disruption Prediction in Multiple Sclerosis using Contrast-free MRI
 
@@ -6,7 +7,6 @@
 
   Multiple sclerosis (MS) is the most common form of autoimmune disorder affecting the central nervous system. In MS patients, the human's immune system attacks and damages the myelin sheath of nerve cells in the brain and the spinal cord, disrupting the nerve impulses at the damaged sites which cause a wide range of disabling symptoms, physical, mental and psychiatric. Convential standard of MS diagnosis involves the employment of contrast-enhanced MRI using Gadolinium-containing agents which can be costly, requiring extra scanning time and potentially toxic. This projects aims to validate and optimize an existent method for MS prediction using contrast-free MRI [1]. MRI scans from 29 MS patients were used for prediction and validation. I contacted three Penn faculties: Dr. Salin Chahin, Dr. Taki Shinohara and Dr. Lyle Ungar about this project's approach and methodology. I identified and performed manual segmentations of enhancing lesions under Dr. Salim Chahin's guidance; Dr. Shinohara explained to me how he came up with his originial approach for lesion enhancement prediction and Dr. Ungar suggested the prediction models used for prediction and validation.
   
-  # I/ Introduction 
 
   Multiple sclerosis (MS) is an inflammatory demyelinating disease which involves lesion formations in the central nervous system. MS can be diagnosed with magnetic resonance imaging (MRI) using the contrast agent gadolinium which highlights leakages in blood-brain barrier (BBB). However, gadolinium poses certain risks to patients beside increasing medical expense, such as being a potential carcinogen. This project aims to evaluate an existed contrast-agent-free prediction algorithm of BBB breakdown, as described by R.T.Shinohara and collaborators in "Predicting Breakdown of the Blood-Brain Barrier in Multiple Sclerosis without Contrast Agents" . A logistic regression model is applied on candidate voxels in T1-, T2- and T2-weighted FLAIR MRI images and predictions are made based on the resulted area under curve (AUC). In addition, this project intends to explore different parameters of the aforementioned method and other prediction algorithms in order to improve prediction rate.
 
@@ -123,3 +123,5 @@ As shown in figure 1 and 2, using voxels in the top 5-10% intensity range in FLA
 [7] RT Shinohara, J Goldsmith, FJ Mateen, C Crainiceanu, and DS Reich. Predicting breakdown of the blood-brain barrier in multiple sclerosis without contrast agents. American Journal of Neuroradiology, 33(8):1586–1590, 2012.
 [8] Russell T Shinohara, Elizabeth M Sweeney, Jeff Goldsmith, Navid Shiee, Farrah J Mateen, Peter A Calabresi, Samson Jarso, Dzung L Pham, Daniel S Reich, Ciprian M Crainiceanu, et al. Statistical normalization techniques for magnetic resonance imaging. NeuroImage: Clinical, 6:9–19, 2014.
 [9] Francine Wein and Leonard A Levin. Comi g, ﬁlippi m, barkhof f, et al. effect of early interferon treatment on conversion to deﬁnite multiple sclerosis: a randomised study. Journal of Neuro-Ophthalmology, 22(1):65, 2002.
+
+# Tools
