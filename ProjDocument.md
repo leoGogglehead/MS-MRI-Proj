@@ -126,7 +126,10 @@ As shown in figure 1 and 2, using voxels in the top 5-10% intensity range in FLA
 [9] Francine Wein and Leonard A Levin. Comi g, ﬁlippi m, barkhof f, et al. effect of early interferon treatment on conversion to deﬁnite multiple sclerosis: a randomised study. Journal of Neuro-Ophthalmology, 22(1):65, 2002.
 
 # List of scripts
-Norm.R - Normalizing pre-registered images in R using White Stripe Normalization
-logRegwEval.m - Logistic Regression prediction of lesion enhancement without Scan-Stratified Case-Control Sampling, with ROC curves plotted for evaluation
-logRegwEvalwSSCC.m - Logistic Regression prediction of lesion enhancement with Scan-Stratified Case-Control Sampling, with ROC curves plotted for evaluation
-treeBaggerwEvalwSSCC.m - Ensemble of bagged decision tree prediction of lesion enhancement with Scan-Stratified Case-Control Sampling, with ROC curves plotted for evaluation
+Norm.R - Normalizing pre-registered images in R using White Stripe Normalization.
+
+logRegwEval.m - Logistic Regression prediction of lesion enhancement without Scan-Stratified Case-Control Sampling, with ROC curves plotted for evaluation.
+
+logRegwEvalwSSCC.m - Logistic Regression prediction of lesion enhancement with Scan-Stratified Case-Control Sampling, with ROC curves plotted for evaluation.
+
+treeBaggerwEvalwSSCC.m - Ensemble of bagged decision tree prediction of lesion enhancement with Scan-Stratified Case-Control Sampling, with ROC curves plotted for evaluation.
