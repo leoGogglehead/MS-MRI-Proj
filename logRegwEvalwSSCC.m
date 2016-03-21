@@ -229,10 +229,6 @@ count = 0;
         order = randperm(n);
         train = train(order, :);
         
-        
-        
-        
-        
         % Training logit model
         model = glmfit(train(:,1:3),train(:,4),'binomial','link','logit');
         clear train ; clear trainFeat; clear trainLabel; clear trainW; clear trainWO;
